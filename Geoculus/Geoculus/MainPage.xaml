@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             x:Class="Geoculus.MainPage" Appearing="MainPage_OnAppearing">
+
+    <StackLayout>
+        
+        <Label FontSize="16" Padding="30,24,30,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="Learn more at " x:Name="Gay"/>
+                        <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold" x:Name="Ass"
+                              />
+                        <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold" x:Name="Suck"
+                        />
+                        <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold" x:Name="Trans"
+                        />
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+            
+        </Label>
+        <Button Clicked="Button_OnClicked" x:Name="Butt">
+
+        </Button>
+        <maps:Map x:Name="map" />
+    </StackLayout>
+    
+</ContentPage>

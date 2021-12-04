@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1047324644947",
+    "project_id": "geoculus",
+    "storage_bucket": "geoculus.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1047324644947:android:10cdb191d2b8ddfe7118a6",
+        "android_client_info": {
+          "package_name": "com.companyname.geoculus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1047324644947-phvbankvs751dga22fqur3nmfgr7qgd6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbjuaumxfS2mGuiwadrqnuHWheUgJxOIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1047324644947-phvbankvs751dga22fqur3nmfgr7qgd6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
